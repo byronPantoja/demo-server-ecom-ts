@@ -18,4 +18,9 @@
   - `BuyRoutes`
   - `OrderRoutes`
   - `AdminRoutes`
-- added `NavBar` component and imported `NavLink` from `react-router-dom`
+- created `NavBar` component and imported `NavLink` from `react-router-dom`
+- created `Layout` component and imported the `NavBar`
+- Wrapped `Routes` component with `Layout` component in the App.tsx file
+- Created a directory for `data` and added the `products.ts` file (_dummy data_)
+- imported the `products.ts` data to the `index.tsx` and mapped through the products array to return the `ProductItem` with a key of `{product.id}`
+- created a `products` directory and a `ProductItem` component to hold the product details
