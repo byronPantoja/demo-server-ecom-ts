@@ -13,7 +13,7 @@ const NavBar: React.FC<Props> = () => {
         <NavLink to="/products" className="">
           Products
         </NavLink>
-        <NavLink to="" className="list-link">
+        <NavLink to="/buy/my-cart" className="list-link">
           Cart
         </NavLink>
         <NavLink to="/buy/select-address" className="list-link">
