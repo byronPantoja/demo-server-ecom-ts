@@ -3,7 +3,7 @@ import React from "react";
 interface Props {}
 
 const ManageOrders: React.FC<Props> = () => {
-  return <div>ManageOrders</div>;
+  return <div>Manage Orders</div>;
 };
 
 export default ManageOrders;
