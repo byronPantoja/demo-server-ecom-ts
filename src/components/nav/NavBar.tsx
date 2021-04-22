@@ -10,7 +10,7 @@ const NavBar: React.FC<Props> = () => {
         <NavLink to="/" className="list-link">
           Home
         </NavLink>
-        <NavLink to="/products" className="">
+        <NavLink to="/products" className="list-link">
           Products
         </NavLink>
         <NavLink to="/buy/my-cart" className="list-link">
